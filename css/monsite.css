@@ -1,0 +1,173 @@
+.erreur {
+	background-color: darkred;
+	color: white;
+	font-style: italic;
+	padding: 10px;
+	margin-top: 20px
+}
+
+.succes{
+	background-color: darkgreen;
+	color: white;
+	font-style: italic;
+	padding: 10px;
+	margin-top: 20px
+}
+
+.conteneur{ /* -------------------conteneur qui contient toute la page HTML */
+	position: relative;
+	font-size: 18px;
+}
+body{
+	background: #000000 url(../img/background-website.jpg) repeat;
+	background-size: 100%;
+}
+/* ---------------- fin du conteneur */
+header{
+	background-color: white;
+	height: 150px;
+	}
+
+.photo, .nom_site, .socialnetwork{
+	height: 150px;
+	float: left;
+}
+
+.photo{
+	background-color: white;
+	width: 15%;
+}
+.photo img{
+	height: 100%;
+	width: 100%;
+	background-size:cover;
+}
+
+footer img{
+	max-width: 40%;
+}
+
+footer img{
+	border-radius: 50%;
+	-webkit-transition: -webkit-transform .8s;
+          transition:         transform .8s;
+}
+footer img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.nom_site{
+	text-align: center;
+	padding: 10px auto;
+	width: 85%;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 100%;
+	}
+h1{
+	font-size:225%;
+	max-width: 100%
+}
+
+/* fin du header */
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: darkgrey;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+
+section{
+	background: white;
+	padding: 0px;
+	overflow: hidden;
+
+
+}
+.bandeau img{
+	width: 100%;
+}
+
+.zone2 img{
+	margin-top: 5px;
+	width: 100%;
+	border-radius: 25px;
+	-moz-box-shadow: 5px 5px 5px 0px #656565;
+	-webkit-box-shadow: 5px 5px 5px 0px #656565;
+	-o-box-shadow: 5px 5px 5px 0px #656565;
+	box-shadow: 5px 5px 5px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=5);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+b{
+	color: #008A94;
+	text-align: left;
+	text-indent: 50px;
+}
+.text{
+	color: #008A94;
+	margin: 10px;
+	padding: 5px;
+	text-align: left;
+}
+
+.clear{
+	clear: both;
+} /* fin de la section */
+footer{
+	background-color: #2f3c4f;
+	padding: 15px;
+}
+a{
+	text-decoration : none;
+}
+.menufooter{
+	text-align: center;
+	color: black;
+	font-size: 40px;
+}
+footer p{
+	text-align: center;
+}
+/*mise en page de contact.html*/
+label{
+	float: left;
+	clear: both;
+
+}
+form {
+    /* Pour le centrer dans la page */
+    margin: 5px auto;
+
+    /* Pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+input, textarea{
+	font-size: 90%;
+	font-family: inherit;
+	box-sizing: border-box;
+	background-color:  #D3D3D3;
+}
+
+/* CSS de la page CV */
+
+.img-responsive{
+	padding: 0px;
+	width : 100%;
+}
+.img-logo{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
